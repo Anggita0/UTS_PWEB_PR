@@ -27,8 +27,8 @@
 @section('title', 'Login')
 
 @section('content')
-    <div class="min-h-screen flex items-center justify-center bg-pink-100">
-        <div class="bg-pink p-6 rounded-lg shadow-lg">
+    <div class="min-h-screen flex items-center justify-center bg-pink-200">
+        <div class="bg-pink-100 p-6 rounded-lg shadow-lg">
             <h1 class="text-2xl font-bold mb-4">Halaman Login</h1>
             <p class="mb-4">Silakan login untuk melanjutkan</p>
             <form action="{{ route('login.post') }}" method="POST"> <!-- Pastikan menggunakan route login.post -->

@@ -11,7 +11,7 @@
 <body>
 
     @include('components.nav')
-    <div class="my-10 mx-20">
+    {{-- <div class="my-10 mx-20"> --}}
 
     @yield('content')
 
